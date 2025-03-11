@@ -28,5 +28,8 @@
   "keywords": [],
   "author": "Gopi saravanan",
   "license": "ISC",
-  "packageManager": "pnpm@10.4.1"
+  "packageManager": "pnpm@10.4.1",
+  "devDependencies": {
+    "gopi-typescript-config-v2": "^1.0.0"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.lib.json",
+  "extends": "gopi-typescript-config-v2/react-library.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "lib"
