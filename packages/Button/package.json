@@ -1,0 +1,32 @@
+{
+  "name": "gopi/btn-v2",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "default": "./dist/my-lib.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "scripts": {
+    "build": "tsc -b ./tsconfig.json && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0 <20.0.0",
+    "react-dom": ">=18.0.0 <20.0.0",
+    "tailwindcss": "^4.0.11"
+  },
+  "keywords": [],
+  "author": "Gopi saravanan",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.1"
+}
