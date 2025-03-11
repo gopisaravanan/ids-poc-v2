@@ -1,6 +1,6 @@
 {
   "name": "gopi-btn-v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shared Button Component for projects",
   "type": "module",
   "exports": {
