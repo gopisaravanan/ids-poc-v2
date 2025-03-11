@@ -1,9 +1,8 @@
 import React from "react";
-import '../../../styles/tailwind.css'
 import { cva, type VariantProps } from "class-variance-authority";
 
+import "../styles/tailwind.css"
 export interface ButtonProps extends VariantProps<typeof buttonVariants> {
-// export interface ButtonProps {
   children: React.ReactNode;
   onClick?: () => void;
   className?: string;
@@ -34,10 +33,8 @@ const buttonVariants = cva(
 );
 
 const Button: React.FC<ButtonProps> = ({ children, onClick, variant, size, className }) => {
-// const Button: React.FC<ButtonProps> = ({ children, onClick }) => {
   return (
     <button
-        // className="px-4 py-2 bg-violet-600 text-white border-none rounded-md cursor-pointer"
     className={buttonVariants({ variant, size, className })}
     onClick={onClick}>
       {children}
