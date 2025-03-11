@@ -6,7 +6,7 @@ export interface ButtonProps extends VariantProps<typeof buttonVariants> {
   children: React.ReactNode;
   onClick?: () => void;
   className?: string;
-  variant?: "primary" | "secondary" | "danger" | null | undefined;
+  variant?: "primary" | "secondary" | "success" | null | undefined;
   size?: "sm" | "md" | "lg" | null | undefined
 }
 
@@ -15,9 +15,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-blue-600 hover:bg-violet-700",
-        secondary: "bg-gray-600 hover:bg-gray-700",
-        danger: "bg-red-600 hover:bg-red-700",
+        primary: "bg-primary-2 hover:bg-primary-3/20",
+        secondary: "bg-secondary-1 hover:bg-secondary-1/90",
+        success: "bg-success-2 hover:bg-success-2/90",
       },
       size: {
         sm: "px-2 py-1 text-sm",
