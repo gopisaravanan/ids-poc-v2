@@ -1,0 +1,16 @@
+{
+  "name": "gopi-typescript-config-v2",
+  "version": "1.0.0",
+  "description": "Shared TypeScript configurations for projects",
+  "main": "base.json",
+  "files": [
+    "base.json",
+    "react-app.json",
+    "react-library.json"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Gopi saravanan"
+}
