@@ -1,5 +1,5 @@
 import React from "react";
-import './index.css'
+import '../../../styles/tailwind.css'
 import { cva, type VariantProps } from "class-variance-authority";
 
 export interface ButtonProps extends VariantProps<typeof buttonVariants> {
@@ -16,7 +16,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-violet-600 hover:bg-violet-700",
+        primary: "bg-blue-600 hover:bg-violet-700",
         secondary: "bg-gray-600 hover:bg-gray-700",
         danger: "bg-red-600 hover:bg-red-700",
       },

@@ -4,14 +4,14 @@
   import react from '@vitejs/plugin-react-swc'
   import dts from 'vite-plugin-dts'
   import { libInjectCss } from 'vite-plugin-lib-inject-css'
-  import tailwindcss from '@tailwindcss/vite'
+  // import tailwindcss from '@tailwindcss/vite'
 
   const __dirname = dirname(fileURLToPath(import.meta.url))
 
   export default defineConfig({
     plugins: [
       react(),
-      tailwindcss(),
+      // tailwindcss(),
       libInjectCss(),
       dts({
         tsconfigPath: resolve(__dirname, "tsconfig.json"),
