@@ -1,18 +1,18 @@
 {
-  "name": "gopi-btn-v2",
-  "version": "1.0.7",
-  "description": "Shared Button Component for projects",
+  "name": "gopi-text-v2",
+  "version": "1.0.0",
+  "description": "A reusable text component",
   "type": "module",
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
-      "default": "./dist/my-lib.js"
+      "default": "./dist/text.js"
     }
   },
   "files": [
     "dist"
   ],
-  "sideEffects": [
+"sideEffects": [
     "**/*.css"
   ],
   "scripts": {

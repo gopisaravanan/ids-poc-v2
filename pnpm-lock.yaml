@@ -83,6 +83,38 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
 
+  packages/button:
+    dependencies:
+      react:
+        specifier: '>=18.0.0 <20.0.0'
+        version: 19.0.0
+      react-dom:
+        specifier: '>=18.0.0 <20.0.0'
+        version: 19.0.0(react@19.0.0)
+      tailwindcss:
+        specifier: ^4.0.11
+        version: 4.0.12
+    devDependencies:
+      gopi-typescript-config-v2:
+        specifier: ^1.0.0
+        version: 1.0.0
+
+  packages/text:
+    dependencies:
+      react:
+        specifier: '>=18.0.0 <20.0.0'
+        version: 19.0.0
+      react-dom:
+        specifier: '>=18.0.0 <20.0.0'
+        version: 19.0.0(react@19.0.0)
+      tailwindcss:
+        specifier: ^4.0.11
+        version: 4.0.12
+    devDependencies:
+      gopi-typescript-config-v2:
+        specifier: ^1.0.0
+        version: 1.0.0
+
   packages/typescript-config: {}
 
 packages:
