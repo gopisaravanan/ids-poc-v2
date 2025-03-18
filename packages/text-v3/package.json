@@ -1,6 +1,6 @@
 {
   "name": "@gopisaravanan/ids-text",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A reusable text component",
   "type": "module",
   "exports": {
