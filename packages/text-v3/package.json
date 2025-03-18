@@ -15,6 +15,9 @@
 "sideEffects": [
     "**/*.css"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc -b ./tsconfig.json && vite build",
     "lint": "eslint .",
